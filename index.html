@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Anshika Arya | Data Analyst Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <h2 class="logo">Anshika.</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-text">
+            <p class="hero-tag">Data Analyst · CS Student</p>
+
+            <h1>Hello, I'm <span>Anshika Arya</span></h1>
+
+            <p class="hero-subtitle">
+                I turn messy data into clear stories using Python, SQL, Excel,
+                Tableau and Machine Learning — from predictive models to business
+                dashboards that support real decisions.
+            </p>
+
+            <div class="hero-badges">
+                <span class="badge">Python</span>
+                <span class="badge">SQL</span>
+                <span class="badge">Machine Learning</span>
+                <span class="badge">Tableau</span>
+            </div>
+
+            <div class="hero-buttons">
+                <!-- Put resume.pdf in the SAME folder as index.html -->
+                <a href="resume.pdf" target="_blank" class="btn primary-btn">
+                    Download Resume
+                </a>
+                <a href="#projects" class="btn secondary-btn">
+                    View Projects
+                </a>
+            </div>
+        </div>
+
+        <!-- Profile image -->
+        <!-- Make sure this file exists: /images/profile1.jpg -->
+        <div class="hero-image-wrapper">
+            <div class="hero-glow"></div>
+            <img src="images/profile1.jpg" alt="Anshika Arya" class="profile-img" />
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I’m a final-year Computer Science student with a strong focus on
+            <b>Data Analytics</b> and <b>Machine Learning</b>. I like taking
+            raw, unstructured data and turning it into clean datasets,
+            visual dashboards, and models that answer real questions.
+        </p>
+        <p>
+            My recent work includes building an
+            <b>AI-Based Flood Risk Early Warning System for Mumbai</b> using
+            ensemble learning (Random Forest + XGBoost), risk-aware evacuation
+            routing, and an automated email alert system. I also completed a
+            <b>Deloitte Australia Data Analytics Virtual Job Simulation</b>,
+            working on ETL-style data preparation, anomaly investigation, and
+            interactive Tableau dashboards for stakeholders.
+        </p>
+        <p>
+            On the business side, I’ve created
+            <b>retail sales dashboards</b> and performed
+            <b>customer segmentation</b> for more than 4,000 customers using
+            K-Means clustering to identify high-value segments and buying
+            patterns. I enjoy combining technical skills with business thinking:
+            asking the right questions, validating assumptions, and communicating
+            insights in a simple, non-technical way.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-box">Python</div>
+            <div class="skill-box">SQL</div>
+            <div class="skill-box">Excel</div>
+            <div class="skill-box">Tableau</div>
+            <div class="skill-box">Pandas</div>
+            <div class="skill-box">NumPy</div>
+            <div class="skill-box">Machine Learning</div>
+            <div class="skill-box">Seaborn / Matplotlib</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                <img src="images/Project 1/project1.1.png" alt="AI Flood Risk Project" />
+                <h3>AI-Based Flood Risk Early Warning System</h3>
+                <p>
+                    Built ensemble ML models (Random Forest + XGBoost) to classify
+                    high-risk flood zones for Mumbai, achieving
+                    <b>83% precision</b> and <b>82% recall</b>. Implemented
+                    risk-aware evacuation routing using Dijkstra’s algorithm and an
+                    automated email alert system for timely warnings.
+                </p>
+                <a href="https://github.com/anshu-3029/AI-Based-Flood-Risk-Early-Warning-System"
+                   target="_blank">View Project →</a>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <img src="images/Project 3/project3.png" alt="Vrinda Store Sales Dashboard" />
+                <h3>Vrinda Store Sales Analysis</h3>
+                <p>
+                    Designed Excel and Tableau dashboards to analyze sales performance,
+                    customer demographics, and channel-wise revenue. Identified patterns
+                    such as top-performing months, states, and key e-commerce platforms
+                    like Amazon, Flipkart, and Myntra.
+                </p>
+                <a href="https://github.com/anshu-3029/Vrinda-Store-Data-Analysis"
+                   target="_blank">View Dashboard →</a>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                <img src="images/Project 2/project2.png" alt="Customer Segmentation" />
+                <h3>Customer Segmentation (K-Means)</h3>
+                <p>
+                    Clustered <b>4,339 customers</b> using K-Means clustering to
+                    identify high-value groups, discount-seekers, and low-engagement
+                    segments. Helped support targeted marketing strategies and more
+                    personalized campaigns with clear segment profiles.
+                </p>
+                <a href="https://github.com/anshu-3029/Retail-Sales-Customer-Segmentation-Analysis"
+                   target="_blank">GitHub Repo →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS & LEADERSHIP -->
+    <section id="achievements" class="section">
+        <h2>Leadership & Achievements</h2>
+        <ul class="achievement-list">
+            <li>
+                <b>PCEMS Conference, VNIT Nagpur (Nov 2025)</b> – Presented the paper
+                <i>“An AI-Based Flood Risk Early Warning System for Urban Environments:
+                A Case Study of Mumbai”</i> and received an official certificate of
+                recognition.
+            </li>
+            <li>
+                <b>Treasurer, Creativity Club</b> – Managed budgets and expenses for
+                college events, coordinated with faculty and vendors, and helped
+                organize multiple technical and cultural activities, strengthening my
+                ownership, planning, and teamwork skills.
+            </li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>
+            Email:
+            <a href="mailto:anshikaarya313@gmail.com">anshikaarya313@gmail.com</a>
+        </p>
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/anshika-arya-1b17652ab/" target="_blank">
+                anshika-arya-1b17652ab
+            </a>
+        </p>
+        <p>
+            GitHub:
+            <a href="https://github.com/anshu-3029" target="_blank">
+                github.com/anshu-3029
+            </a>
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
